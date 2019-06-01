@@ -1,0 +1,31 @@
+.article .articleBody img{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+.article .articleBody p{
+    letter-spacing: 2px;
+    margin-left: 20px;
+    margin-right:20px;
+  }
+  
+  @media screen and (max-width: 640px) {
+	.article .articleBody img{
+		float: none;	
+		width:90%;
+		height:auto;
+    }
+}
+
+  @media screen and (max-width: 768px) and (min-width: 640px) {
+	.article .articleBody img{
+		width:40%;
+		height:auto;
+    }
+}
+
+
+
+
